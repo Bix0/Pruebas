@@ -20,23 +20,7 @@ ficha_amarilla
 
 ;creacion de jugadores con sus elementos respectivos
 (define p1 (player 1 "Juan" ficha_roja 0 0 0 21))
-(define p2 (player 2 "Pedro" ficha_amarilla 0 0 0 21))
+(define p2 (player 2 "Juan" ficha_amarilla 0 0 0 21))
 
 p1
 p2
-
-;creacion de tablero de juego
-
-
-
-(define empty-board
-  (list(list 0 0 0 0 0 0)
-       (list 0 0 0 0 0 0)
-       (list 0 0 0 0 0 0)
-       (list 0 0 0 0 0 0)
-       (list 0 0 0 0 0 0)
-       (list 0 0 0 0 0 0)
-       (list 0 0 0 0 0 0)))
-
-(define b0 empty-board)
-b0
